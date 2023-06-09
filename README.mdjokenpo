@@ -1,0 +1,44 @@
+Jokenpô
+License
+
+Um jogo simples de Jokenpô (Pedra, Papel, Tesoura) onde você pode jogar contra a máquina.
+
+Demonstração
+
+
+https://github.com/Joyzy79/Jo-ken-p-/assets/129207028/caf0f8a2-8b47-4cb4-b93d-42b887d8e819
+
+
+
+Tecnologias Utilizadas
+HTML
+CSS
+JavaScript
+Funcionalidades
+Escolha entre pedra, papel e tesoura para jogar contra a máquina.
+Resultados dinâmicos com base nas escolhas feitas.
+Placar atualizado para acompanhar a pontuação.
+Instalação
+Clone o repositório: git clone https://github.com/seu-usuario/jokenpo.git
+Navegue até o diretório do projeto: cd jokenpo
+Abra o arquivo index.html no seu navegador.
+Contribuição
+Contribuições são bem-vindas! Para contribuir:
+
+Faça um Fork do projeto
+Crie uma branch para sua feature (git checkout -b feature/sua-feature)
+Faça commit das suas alterações (git commit -am 'Adicione sua feature')
+Faça push para a branch (git push origin feature/sua-feature)
+Abra um Pull Request
+Certifique-se de seguir as boas práticas de desenvolvimento e adicionar testes quando necessário.
+
+Licença
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
+
+Contato
+Se tiver alguma dúvida, sugestão ou feedback, sinta-se à vontade para entrar em contato:
+
+Josie Sousa  Joy.josie.sousa@gmail.com
+
+Agradecimentos
+Agradeça a qualquer pessoa ou recurso que tenha sido útil no desenvolvimento do projeto.
