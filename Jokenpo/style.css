@@ -1,0 +1,115 @@
+
+*{
+font-family: 'Bruno Ace SC', cursive;
+}
+.bg_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+    background: url(./abstract_background_-_107303\ \(540p\).mp4) no-repeat;
+	background-size: cover; 
+}
+
+h1{
+    font-size: 35px;
+    padding: auto;
+    margin-bottom: 20px;
+    color: rgb(184, 189, 190);
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+.container {
+   /* padding: 20px;*/
+    background: rgb(63,241,251);
+    background: radial-gradient(circle, rgba(63,241,251,1) 0%, rgba(205,252,70,1) 91%);
+    border-radius: 95px;
+    width: 350px;
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    margin: 30px 0px;
+    padding:10px;
+    font-size: 60px;
+    cursor: pointer;
+    border: none;
+    border-radius: 45px;
+    transition: opacity 0.7s ease-in-out;
+}
+button:hover{
+    transform: translate(0px, -10px);
+    opacity: 0.7;
+
+}
+
+#rock{
+    background-color:rgb(3, 107, 243);
+    box-shadow: 10px 5px 5px rgb(2, 98, 105);
+
+}
+#paper{
+    background-color:rgba(229, 13, 132, 0.854);
+    box-shadow: 10px 5px 5px rgb(82, 2, 51);
+
+}
+#scissors{
+    background-color:rgb(108, 75, 146);
+    box-shadow: 10px 5px 5px rgb(40, 14, 64);
+}
+input[type="radio"]   {
+    display: none;
+    border-radius: 10px;
+}
+.machine-score{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(184, 189, 190);
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+p {
+    font-weight: bold;
+}
+.your-score{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(184, 189, 190);
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+.speaker{
+    top: 0;
+    right: 0;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(13, 13, 13);
+    text-align: center;
+}
+.your-score span {
+    color: rgb(53, 83, 121);
+}
+.machine-score span {
+    color: rgb(137, 46, 46);
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Jokenpô</title>
+</head>
+<h1>THE ULTIMATE BATLE</h1>
+<body>
+    <video autoplay loop poster="images/torres.jpg" class="bg_video">
+        <source src="abstract_background_-_107303 (540p).mp4" type="video/mp4">
+    </video>
+    <div class="container">
+<h1>Jokenpô</h1>
+    <div class="button">
+        <button id="rock" onclick="playHuman('rock')">✊🏽</button>
+        <button id="paper" onclick="playHuman('paper')">🤚🏼</button>
+        <button id="scissors" onclick="playHuman('scissors')">✌🏼</button>
+    </div>
+    <input type="text" placeholder="Escolha da Skynet">
+        <p class="machine-score">SkyNet: <span id="human-score"> 0</span></p>
+        <p class="speaker">Vamos decidir agora quem vai dominar o mundo!</p>
+        <p class="your-score">humano: <span id="machine-score"> 0</span></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
